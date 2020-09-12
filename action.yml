@@ -1,0 +1,10 @@
+name: "Message to Whatsapp"
+description: "Send message to WhatsApp number via Twillio"
+author: "Zilu Rane"
+branding:
+  icon: message-circle
+  color: green
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
